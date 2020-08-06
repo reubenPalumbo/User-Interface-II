@@ -1,1 +1,61 @@
 /* Add CSS styling here */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font: inherit;
+  font-family: "Roboto", sans-serif;
+  vertical-align: baseline;
+
+  box-sizing: border-box;
+
+  /* border: 1px solid crimson; */
+}
+
+body {
+  background-color: darkcyan;
+}
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4rem;
+  color: blue;
+  text-shadow: 0.2rem 0.2rem white, 0rem 0rem 1rem black;
+  letter-spacing: 0.2rem;
+}
+.myName {
+  background-color: lightgray;
+  text-align: center;
+}
+.main {
+  background-color: darkgrey;
+  display: flex;
+}
+
+.main div {
+  width: 50%;
+  align-items: center;
+  margin: 1%;
+}
+
+.headLinks {
+  /* border: 1px solid crimson; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links {
+  /* border: 1px solid crimson; */
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 1%;
+  background-color: blue;
+  padding: 2% 0;
+  border-radius: 40px;
+  width: 15%;
+}
