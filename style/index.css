@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: darkcyan;
+  background-color: #340034;
 }
 h1 {
   font-family: "Orbitron", sans-serif;
@@ -28,6 +28,9 @@ h1 {
 .myName {
   background-color: lightgray;
   text-align: center;
+  border-radius: 50%;
+  border: 0.5rem double black;
+  width: 120%;
 }
 .main {
   background-color: darkgrey;
@@ -58,4 +61,98 @@ h1 {
   padding: 2% 0;
   border-radius: 40px;
   width: 15%;
+  border: 0.5rem double white;
 }
+
+.mainImg {
+  background-image: url("https://i.pinimg.com/originals/f6/20/a1/f620a179ca1acfd15a0754701677fb58.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 80%;
+  margin: 3% auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  border-radius: 50px;
+}
+.myName2 {
+  font-size: 4rem;
+  width: 45%;
+  text-align: center;
+  margin: 2%;
+  border: 0.5rem double white;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  padding: 1%;
+}
+.myProj {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+}
+.subLink {
+  border: 0.5rem double white;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 7%;
+  border-radius: 10px;
+}
+
+.itemsMain {
+  border: 1px solid crimson;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.items {
+  text-align: center;
+  border: 1px solid crimson;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.items div {
+  /* height: 20rem; */
+
+  width: 30%;
+  margin: 2% 0;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+  height: 15rem;
+  border: 0.5rem double white;
+}
+.item1-text,
+.item2-text,
+.item3-text,
+.item4-text,
+.item5-text,
+.item6-text {
+  border: 0.1rem solid white;
+}
+
+/* footer {
+  background-color: lightgray;
+  text-align: center;
+  border: 0.5rem double black;
+} */
