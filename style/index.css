@@ -114,7 +114,7 @@ h1 {
 
 .itemsMain {
   background-color: #340034;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -124,7 +124,7 @@ h1 {
 }
 .items {
   text-align: center;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -157,6 +157,8 @@ h1 {
 .item4-text,
 .item5-text,
 .item6-text {
+  background-color: blue;
+  color: white;
   font-size: 3rem;
   border: 0.1rem solid white;
 }
