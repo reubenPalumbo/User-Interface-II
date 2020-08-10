@@ -32,9 +32,8 @@ h1 {
 .myName {
   background-color: lightgray;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 35%;
   border: 0.5rem double black;
-  width: 120%;
 }
 .main {
   background-color: darkgrey;
@@ -42,6 +41,7 @@ h1 {
 }
 
 .main div {
+  /* border: 1px solid crimson; */
   width: 50%;
   align-items: center;
   margin: 1%;
@@ -122,19 +122,9 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
 }
-.items {
-  text-align: center;
-  /* border: 1px solid crimson; */
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.items div {
-  /* height: 20rem; */
 
+.boxBase {
+  text-align: center;
   width: 30%;
   margin: 2% 0;
 }
@@ -164,19 +154,17 @@ h1 {
 }
 
 footer {
+  margin: 0 auto;
+  width: 80%;
   height: 15vh;
-  background-color: darkgrey;
   text-align: center;
-  border: 0.5rem double black;
-  justify-content: center;
-  align-items: center;
-}
-.contact {
-  /* border: 0.5rem double black; */
-  margin: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact {
+  width: 25%;
 }
 .contactLink {
   border: 0.5rem double white;
@@ -186,6 +174,93 @@ footer {
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-  padding: 1%;
   border-radius: 10px;
+  padding: 8%;
+}
+
+@media (max-width: 800px) {
+  .main {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .main div {
+    width: 90%;
+  }
+  .headLinks {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .links {
+    width: 40%;
+    padding: 0.5%;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+    height: 15rem;
+  }
+  .item1-text,
+  .item2-text,
+  .item3-text,
+  .item4-text,
+  .item5-text,
+  .item6-text {
+    font-size: 2rem;
+  }
+  .boxBase {
+    width: 45%;
+  }
+  .myName2 {
+    width: 65%;
+    font-size: 2.5rem;
+  }
+
+  .contactLink {
+    padding: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .main div {
+    width: 90%;
+  }
+  .headLinks {
+    flex-flow: column nowrap;
+  }
+  .links {
+    width: 45%;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+    height: 10rem;
+  }
+  .item1-text,
+  .item2-text,
+  .item3-text,
+  .item4-text,
+  .item5-text,
+  .item6-text {
+    font-size: 1.5rem;
+  }
+  .boxBase {
+    width: 45%;
+  }
+  .myName2 {
+    font-size: 2.5rem;
+  }
+
+  .contactLink {
+    padding: 10%;
+  }
 }
