@@ -168,7 +168,7 @@ footer {
   background-color: darkgrey;
   text-align: center;
   border: 0.5rem double black;
-  ustify-content: center;
+  justify-content: center;
   align-items: center;
 }
 .contact {
